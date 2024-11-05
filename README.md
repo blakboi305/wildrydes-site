@@ -26,8 +26,8 @@ const ddb = DynamoDBDocumentClient.from(client);
 
 const fleet = [
     { Name: 'Angel', Color: 'White', Gender: 'Female' },
-    { Name: 'Gil', Color: 'White', Gender: 'Male' },
-    { Name: 'Rocinante', Color: 'Yellow', Gender: 'Female' },
+    { Name: 'BigDawg', Color: 'White', Gender: 'Male' },
+    { Name: 'UnicornG', Color: 'Yellow', Gender: 'Female' },
 ];
 
 export const handler = async (event, context) => {
